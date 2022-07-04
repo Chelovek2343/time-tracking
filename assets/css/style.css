@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,
+section,
+footer {
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-family: 'Rubik', sans-serif;
+  background: hsl(226, 43%, 10%);
+}
+button {
+  cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1114px;
+  margin: 0 auto;
+}
+.wrapper {
+  padding-top: 40px;
+}
+.wrapper .inner {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .inner .wrapper__start {
+  background: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.wrapper .inner .wrapper__start .user {
+  background: hsl(246, 80%, 60%);
+  padding: 28px 83px 76px 25px;
+  border-radius: 15px;
+}
+.wrapper .inner .wrapper__start .user .user__img {
+  margin-bottom: 27px;
+}
+.wrapper .inner .wrapper__start .user .user__img img {
+  width: 75px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.wrapper .inner .wrapper__start .user .user__name {
+  width: 200px;
+}
+.wrapper .inner .wrapper__start .user .user__name span {
+  font-weight: 500;
+  opacity: 0.5;
+}
+.wrapper .inner .wrapper__start .user .user__name p {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.wrapper .inner .wrapper__start .switcher {
+  padding: 20px 0 20px 25px;
+}
+.wrapper .inner .wrapper__start .switcher p {
+  font-weight: 500;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.wrapper .inner .wrapper__start .switcher p.active {
+  opacity: 1;
+}
+.wrapper .inner .wrapper__main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .inner .wrapper__main .item {
+  flex: 1 1 250px;
+  padding: 22px 30px 24px 26px;
+  background: hsl(235, 46%, 20%);
+}
+.wrapper .inner .wrapper__main .item .item__top {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .inner .wrapper__main .item .item__top .suptitle p {
+  font-weight: 500;
+}
+.wrapper .inner .wrapper__main .item .item__main .main__number p {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.wrapper .inner .wrapper__main .item .item__main .main__subtitle p {
+  opacity: 0.5;
+  font-size: 14px;
+}
